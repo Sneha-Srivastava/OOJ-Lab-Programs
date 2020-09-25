@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Marks
+{
+ public static void main(String[] args)
+  {
+   Scanner in=new Scanner(System.in);
+   float cie,sie,sum;
+   System.out.println("Enter cie marks out of 50:");
+   cie=in.nextFloat();
+   System.out.println("Enter sie marks out of 50:");
+   sie=in.nextFloat();
+   sum=cie+sie;
+   System.out.println("Student's grade");
+   if(sum>=90)
+   System.out.println("S grade");
+   else if((sum>=80)&&(sum<90))
+   System.out.println("A grade");
+   else if((sum>=70)&&(sum<80))
+   System.out.println("B grade");
+   else if((sum>=60)&&(sum<70))
+   System.out.println("C grade");
+   else if((sum>=50)&&(sum<60))
+   System.out.println("D grade");
+   else
+   System.out.println("F grade");
+  }
+}
