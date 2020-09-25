@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Largest
+{
+ public static void main(String args[])
+ {
+  int n1,n2,n3;
+  Scanner in=new Scanner(System.in);
+  System.out.println("Enter first integer:");
+  n1=in.nextInt();
+  System.out.println("Enter second integer:");
+  n2=in.nextInt();
+  System.out.println("Enter third integer:");
+  n3=in.nextInt();
+  if((n1>n2)&&(n1>n3))
+  System.out.println("Largest integer is:"+n1);
+  else if((n2>n1)&&(n2>n3))
+  System.out.println("Largest integer is:"+n2);
+  else
+  System.out.println("Largest integer is:"+n3);
+ }
+}
