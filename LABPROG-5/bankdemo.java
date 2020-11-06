@@ -115,15 +115,7 @@ class bankdemo
                         b.service_charge();
                         b.display();
                         }
-                else if(choice==2)
-                {
-                        Current_acc b=new Current_acc();
-                        b.type(choice);
-                        b.input();
-                        b.deposit();
-                        b.service_charge();
-                        b.display();
-                }
+                
                 else
                         System.out.println("Invalid choice");
 
