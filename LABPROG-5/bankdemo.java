@@ -95,7 +95,7 @@ class bankdemo
                         Savings_acc b=new Savings_acc();
                         b.type(choice);
                         b.input();
-                        System.out.println("Do you want to deposit or withdrawt?\n1.Deposit.\n2.Withdraw\n");
+                        System.out.println("Do you want to deposit or withdraw?\n1.Deposit.\n2.Withdraw\n");
                         int ch=in.nextInt();
                         if(ch==1)
                         b.deposit();
