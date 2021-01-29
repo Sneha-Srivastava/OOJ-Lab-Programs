@@ -27,8 +27,8 @@ class SwingDemo{
         JLabel blab = new JLabel();
         JLabel anslab = new JLabel();
 
-        // add in order :)
-        jfrm.add(err);  // to display error bois
+        // add in order
+        jfrm.add(err);  // to display error 
         jfrm.add(jlab);
         jfrm.add(ajtf);
         jfrm.add(bjtf);
